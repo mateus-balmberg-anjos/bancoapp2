@@ -1,0 +1,30 @@
+<resources>
+    <!-- Cores básicas -->
+    <color name="white">#FFFFFF</color> <!-- Cor branca -->
+    <color name="black">#121212</color> <!-- Cor de fundo escura -->
+
+    <!-- Cores principais -->
+    <color name="primaryColor">#de4f15</color> <!-- Cor principal (laranja) -->
+    <color name="primaryDarkColor">#F50057</color> <!-- Cor escura para o tema -->
+
+    <!-- Cores para fundo -->
+    <color name="backgroundColor">#191013</color> <!-- Cor para fundo de todas as telas -->
+
+    <!-- Cores para caixas de diálogo -->
+    <color name="dialogBackground">#000000</color> <!-- Preto para o fundo do dialog -->
+    <color name="dialogText">#FFFFFF</color> <!-- Cor do texto da caixa de diálogo -->
+
+    <!-- Cores cinza -->
+    <color name="darkGray">#333333</color> <!-- Cor cinza escuro -->
+    <color name="gray">#BBBBBB</color> <!-- Cor cinza -->
+
+    <!-- Cores adicionais -->
+    <color name="red">#FF0000</color> <!-- Cor vermelha -->
+    <color name="red_700">#D32F2F</color> <!-- Cor vermelha escura -->
+    <color name="purple_500">#6200EE</color> <!-- Cor roxa -->
+    <color name="purple_700">#3700B3</color> <!-- Cor roxa escura -->
+
+    <!-- Cores para botões -->
+    <color name="buttonOrange">#FF5722</color> <!-- Laranja para botões -->
+    <color name="orange">#FF5722</color> <!-- Cor de fundo laranja -->
+</resources>

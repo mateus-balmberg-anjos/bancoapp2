@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/darkGray" /> <!-- Cor cinza escuro do colors.xml -->
+    <corners android:radius="8dp" />
+</shape>

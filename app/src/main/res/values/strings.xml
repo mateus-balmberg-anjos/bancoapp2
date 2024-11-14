@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Banco2</string>
+    <string name="login_title">Bem-vindo ao Banco</string>
+    <string name="cpf_hint">CPF</string>
+    <string name="senha_hint">Senha</string>
+    <string name="login_button_text">Entrar</string>
+    <string name="login_error_message">CPF ou Senha incorretos</string>
+    <string name="home_label">Tela Inicial</string>
+</resources>

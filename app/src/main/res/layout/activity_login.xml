@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/backgroundColor"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao Banco"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/cpfField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CPF"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:padding="12dp"
+        android:background="@drawable/fundo_textp_login"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/senhaField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:padding="12dp"
+        android:background="@drawable/fundo_textp_login"
+        android:inputType="textPassword"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/buttonOrange"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"/>
+
+</LinearLayout>

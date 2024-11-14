@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/darkGray"> <!-- Alterado para cinza escuro -->
+
+    <TextView
+        android:id="@+id/label_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o valor para Depósito"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnConfirm"
+            style="@style/DialogButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Confirmar"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/DialogButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar"
+            android:padding="10dp"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+</LinearLayout>
